@@ -18,5 +18,10 @@ int main()
 
     printf("S1: %d, %.2f, %s\n", s1.i, s1.d, s1.s);
     printf("S2: %d, %.3f, %s\n", s2.i, s2.d, s2.s);
+
+    S *s3 = &s1;
+
+    printf("S3 %s\n", s3->s);
+    
     return 0;
 }
