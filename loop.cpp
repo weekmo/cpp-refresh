@@ -13,5 +13,15 @@ int main(){
         if(ch) break;
         printf("char is %c\n", ch);
     }
+
+    for(int i = 0; i<5; i++)
+    {
+        printf("pointer -> %p, value -> %d\n", &i, i);
+    }
+
+    for(int i = 0; i<5; ++i)
+    {
+        printf("pointer -> %p, value -> %d\n", &i, i);
+    }
     return 0;
 }

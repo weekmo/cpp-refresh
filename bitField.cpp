@@ -1,4 +1,5 @@
 #include <cstdio>
+#include "weekmoLib.hpp"
 
 struct  Prefs 
 {
@@ -22,5 +23,6 @@ int main()
 
     printf("Size of Pref is %zd bits\n", sizeof(homer) * 8);
 
+    
     return 0;
 }
