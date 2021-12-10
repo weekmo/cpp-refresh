@@ -19,7 +19,7 @@ int main()
 {
     for(int i=1;i<10;++i)
     {
-        printf("Factorial of %4d is %4d\n",i, factorial1(i));
+        printf("Factorial of %4d -> %4d\n",i, factorial1(i));
     }
     return 0;
 }
