@@ -24,6 +24,7 @@ int main(){
     {
         fputs(buf, stdout);
     }
+    
     fclose(fr);
     remove(fn);
 
